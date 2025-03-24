@@ -1,0 +1,34 @@
+[
+  {
+    "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
+    "commit": "3e84b8c"
+  },
+  {
+    "repo": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+    "commit": "9d076a3"
+  },
+  {
+    "repo": "https://github.com/rgthree/rgthree-comfy",
+    "commit": "ab37a0b"
+  },
+  {
+    "repo": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "commit": "9ae952b"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-IC-Light",
+    "commit": "0208191"
+  },
+  {
+    "repo": "https://github.com/cubiq/ComfyUI_essentials",
+    "commit": "33ff89f"
+  },
+  {
+    "repo": "https://github.com/sipherxyz/comfyui-art-venture",
+    "commit": "50abaac"
+  },
+  {
+    "repo": "https://github.com/jakechai/ComfyUI-JakeUpgrade",
+    "commit": "a23bab9"
+  }
+]
