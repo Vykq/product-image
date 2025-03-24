@@ -48,7 +48,11 @@ class Predictor(BasePredictor):
         input_file: Path,
         filename: str = "image.png",
     ):
-        shutil.copy(input_file, os.path.join(INPUT_DIR, filename))
+        input_file_path = str(input_file)
+        if os.path.exists(input_file_path):
+            shutil.copy(input_file, os.path.join(INPUT_DIR, filename))
+        else:
+            raise FileNotFoundError(f"File not found: {input_file_path}")
 
     # Update nodes in the JSON workflow to modify your workflow based on the given inputs
     def update_workflow(self, workflow, **kwargs):
